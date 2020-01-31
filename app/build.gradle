@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    defaultConfig {
+        applicationId "com.ics4u.nac"
+        minSdkVersion 26
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE.md'
+        exclude 'META-INF/NOTICE.md'
+        exclude 'META-INF/NOTICE.markdown'
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'org.glassfish.jersey.core:jersey-client:2.25'
+    implementation 'org.glassfish.jersey.media:jersey-media-json-jackson:2.25'
+    implementation 'javax.xml.bind:jaxb-api:2.4.0-b180830.0359'
+    implementation files('libs/com.nac.entity.jar')
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+}
+
+configurations {
+    compile.exclude group: 'javax.inject', module: 'javax.inject'
+}
+
+repositories {
+    mavenLocal()
+}
