@@ -14,7 +14,7 @@ The app can be tested using the [Android Emulator](https://developer.android.com
 When the app is first launched, the user must enter their credentials in order to access the service. 
 
 Default credentials:
-  * Username: opso
-  * Password: none
+  * **Username:** opso
+  * **Password:** none
 
 Once authenticated, the app will fetch a list of activities from the server and display them to the user. The user can click on any one of the activities to view more details, edit the activities (if they are authorized), and indicate whether they will be attending. The user can also filter the list of activities using parameters such as the name and date. Finally, they can share details of an event with someone else via SMS using the share button beside each activity. 
