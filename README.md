@@ -17,4 +17,6 @@ Default credentials:
   * **Username:** opso
   * **Password:** none
 
-Once authenticated, the app will fetch a list of activities from the server and display them to the user. The user can click on any one of the activities to view more details, edit the activities (if they are authorized), and indicate whether they will be attending. The user can also filter the list of activities using parameters such as the name and date. Finally, they can share details of an event with someone else via SMS using the share button beside each activity. 
+Once authenticated, the app will fetch a list of activities from the server and display them to the user. The user can click on any one of the activities to view more details, edit the activities (if they are authorized), and indicate whether they will be attending. The user can also filter the list of activities using parameters such as the name and date. 
+
+The user can also share the details of an event with someone else via SMS using the share button beside each activity. Clicking this button opens up an interface that allows the user to craft a unique message for the recipient, and add details of the event into the message (e.g. the date/time of the event, the location, and a link which will open the event details on the app on the recipient side).
