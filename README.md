@@ -13,7 +13,7 @@ The app can be tested using the [Android Emulator](https://developer.android.com
 
 When the app is first launched, the user must enter their credentials in order to access the service. 
 
-Default credentials:
+**Default credentials:**
   * **Username:** opso
   * **Password:** none
 
