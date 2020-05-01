@@ -11,8 +11,9 @@ The app can be tested using the [Android Emulator](https://developer.android.com
 ## Usage
 ***Note:** The server that the app relies on is currently unavailable, which limits certain functionalities of the app. However, the app allows for a demo mode that shows the key features of the app. There are also a few on-screen popup messages that alert the user when they try to do something that the demo mode does not support.*
 
-* When the app is first launched, the user must enter their credentials in order to access the service. 
-  * Default credentials:
+When the app is first launched, the user must enter their credentials in order to access the service. 
+
+Default credentials:
   * Username: opso
   * Password: none
 
